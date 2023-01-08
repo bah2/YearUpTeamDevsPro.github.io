@@ -1,0 +1,118 @@
+/* Posts Page CSS */
+:root {
+  --maincolor: #ffff;
+  --secondary: #564592;
+  --thirdColor: #e15a97;
+  --foruthcolor: #0496ff;
+}
+body {
+  background: radial-gradient(75% 35% at 50% 95%, rgba(80, 82, 98, 0.6) 20%, rgba(80, 82, 98, 0) 90%), linear-gradient(rgba(28, 35, 50, 0) 0%, rgba(28, 35, 50, 1) 80%);;
+/*   background-image: url("images/beachImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+/* this is the stles for the navbar  */
+
+/* this is the main content */
+main {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+/* this is the syles for the post area */
+.main-content {
+  box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.2);
+
+  flex: 4;
+
+  margin-right: 2.5rem;
+  border-radius: 1rem;
+
+  background-color: rgba(173, 216, 230, 0.644);
+  height: 50rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.NewPost {
+  float: right;
+  margin-top: 2rem;
+  margin-right: 1.5rem;
+}
+
+.mainContentBtn {
+  padding: 0.7rem;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.945);
+  text-decoration: none;
+}
+
+/* this is the news styles  */
+.news {
+  box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.2);
+  margin-left: 1rem;
+  flex-basis: 20%;
+  border-radius: 1rem;
+  flex: 1;
+  color: orange;
+  height: 12rem;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+.news h4{
+  text-align: center;
+  color: blue;
+}
+
+.news ul li{
+  padding-bottom: 1em;
+  list-style: none;
+}
+/* this is the styles for the posted content */
+.postedcontent {
+  text-align: center;
+  width: 90%;
+  margin: 4.5rem auto;
+  background-color: rgba(30, 255, 180, 0.89);
+}
+.otherp {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* this is the dstyles for the like btns */
+.likes {
+  display: flex;
+}
+.likes p {
+  padding-left: 9px;
+  padding-top: 10px;
+}
+.likesdiv {
+  display: flex;
+}
+.likesdiv div button {
+  background-color: none;
+  background: none;
+  padding: 0%;
+  border: none;
+}
+#dislikedbtn {
+  margin-left: 1rem;
+}
+.likes input {
+  border: none;
+  width: 1rem;
+  background: none;
+  pointer-events: none;
+  color: black;
+}
+.logoimg{
+  width: 7rem;
+  height: 7rem;
+}
